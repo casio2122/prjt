@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8">
+<title>main</title>
+</head>
+<body>
+	<h2>main</h2>
+	[[ ${upload} ]]
+	<span th:text="${@environment.getProperty('file.uploadpath')"></span>
+</body>
+</html>
